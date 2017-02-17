@@ -1,0 +1,11 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DEMO_Insights1
+  host: DEMOInsights1
+  disk_quota: 1024M
+  services:
+  - DEMO_Insights1-personality_insights
+  - Insights for Twitter-i4
